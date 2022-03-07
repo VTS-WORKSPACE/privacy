@@ -26,7 +26,7 @@ return [
 		['name' => 'admin#setReadableLocation', 'url' => 'api/location', 'verb' => 'POST'],
 		['name' => 'personal#getAdmins', 'url' => '/api/admins', 'verb' => 'GET'],
 		['name' => 'admin#addAdditionalAdmin', 'url' => 'api/admins', 'verb' => 'POST'],
-		['name' => 'admin#deleteAdditionalAdmin', 'url' => 'api/admins/{id}', 'verb' => 'DELETE'],
+		['name' => 'admin#deleteAdditionalAdmin', 'url' => 'api/admins/{id}', 'verb' => 'POST'],
 		['name' => 'admin#setFullDiskEncryption', 'url' => 'api/fullDiskEncryption', 'verb' => 'POST'],
 	]
 ];
